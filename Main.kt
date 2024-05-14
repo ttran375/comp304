@@ -18,10 +18,14 @@ fun main(args: Array<String>) {
 
     // println("max = $max")
 
-	val score = 12.3
-    println("score")
-    println("$score")
-    println("score = $score")
-    println("${score + score}")
-    println(12.3)    
+	// val score = 12.3
+    // println("score")
+    // println("$score")
+    // println("score = $score")
+    // println("${score + score}")
+    // println(12.3)  
+    
+    print("Enter text: ")
+    val stringInput = readLine()
+    println("You entered: $stringInput")
 }
