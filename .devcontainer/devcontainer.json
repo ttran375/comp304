@@ -3,6 +3,8 @@
       "vscode": {
           "extensions": [
               "vsls-contrib.gitdoc",
+              "mathiasfrohlich.Kotlin",
+              "fwcd.kotlin",
               "GitHub.copilot"
           ]
       }
