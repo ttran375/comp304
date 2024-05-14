@@ -33,18 +33,27 @@ fun main(args: Array<String>) {
     // val result = if (number > 0) "Positive number" else "Negative number"
     // println(result)
     
-    val a = 12
-    val b = 5
-    println("Enter operator either +, -, *, or /")
-    val operator = readLine()
+    // val a = 12
+    // val b = 5
+    // println("Enter operator either +, -, *, or /")
+    // val operator = readLine()
 
-    val result = when (operator) {
-        "+" -> a + b
-        "-" -> a - b
-        "*" -> a * b
-        "/" -> if (b != 0) a / b else "Division by zero is not allowed"
-        else -> "$operator is an invalid operator."
+    // val result = when (operator) {
+    //     "+" -> a + b
+    //     "-" -> a - b
+    //     "*" -> a * b
+    //     "/" -> if (b != 0) a / b else "Division by zero is not allowed"
+    //     else -> "$operator is an invalid operator."
+    // }
+
+    // println("result = $result")
+
+    val n = -1
+    when (n) {
+        1, 2, 3 -> println("n is a positive integer less than 4.")
+        0 -> println("n is zero")
+        -1, -2 -> println("n is a negative integer greater than -3.")
+        else -> println("n does not meet any specific condition.")
     }
-
-    println("result = $result")
+    
 }
