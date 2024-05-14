@@ -4,19 +4,24 @@ fun main(args: Array<String>) {
     // println("number1 = $number1") //number1 = 259
     // println("number2 = $number2") //number2 = 3
 
-    fun main(args: Array<String>) {
-        val a = -12
-        val b = 12
-    
-        // Use of greater than operator
-        val max = if (a > b) {
-            println("a is larger than b.")
-            a
-        } else {
-            println("b is larger than a.")
-            b
-        }
-    
-        println("max = $max")
-    }    
+    // val a = -12
+    // val b = 12
+
+    // // Use of greater than operator
+    // val max = if (a > b) {
+    //     println("a is larger than b.")
+    //     a
+    // } else {
+    //     println("b is larger than a.")
+    //     b
+    // }
+
+    // println("max = $max")
+
+	val score = 12.3
+    println("score")
+    println("$score")
+    println("score = $score")
+    println("${score + score}")
+    println(12.3)    
 }
