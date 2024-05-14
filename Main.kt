@@ -25,7 +25,12 @@ fun main(args: Array<String>) {
     // println("${score + score}")
     // println(12.3)  
     
-    print("Enter text: ")
-    val stringInput = readLine()
-    println("You entered: $stringInput")
+    // print("Enter text: ")
+    // val stringInput = readLine()
+    // println("You entered: $stringInput")
+
+    val number = -10
+    val result = if (number > 0) "Positive number" else "Negative number"
+    println(result)
+    
 }
