@@ -29,8 +29,22 @@ fun main(args: Array<String>) {
     // val stringInput = readLine()
     // println("You entered: $stringInput")
 
-    val number = -10
-    val result = if (number > 0) "Positive number" else "Negative number"
-    println(result)
+    // val number = -10
+    // val result = if (number > 0) "Positive number" else "Negative number"
+    // println(result)
     
+    val a = 12
+    val b = 5
+    println("Enter operator either +, -, *, or /")
+    val operator = readLine()
+
+    val result = when (operator) {
+        "+" -> a + b
+        "-" -> a - b
+        "*" -> a * b
+        "/" -> if (b != 0) a / b else "Division by zero is not allowed"
+        else -> "$operator is an invalid operator."
+    }
+
+    println("result = $result")
 }
