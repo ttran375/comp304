@@ -48,12 +48,28 @@ fun main(args: Array<String>) {
 
     // println("result = $result")
 
-    val n = -1
-    when (n) {
-        1, 2, 3 -> println("n is a positive integer less than 4.")
-        0 -> println("n is zero")
-        -1, -2 -> println("n is a negative integer greater than -3.")
-        else -> println("n does not meet any specific condition.")
-    }
-    
+    // Iterating from 1 to 5
+    print("for (i in 1..5) print(i) = ")
+    for (i in 1..5) print(i)
+    println() // Output: 12345
+
+    // Attempting to iterate from 5 to 1 using '..' (will not work as expected)
+    print("for (i in 5..1) print(i) = ")
+    for (i in 5..1) print(i)
+    println() // Output: (prints nothing because 5..1 is an empty range)
+
+    // Iterating from 5 down to 1 using 'downTo'
+    print("for (i in 5 downTo 1) print(i) = ")
+    for (i in 5 downTo 1) print(i)
+    println() // Output: 54321
+
+    // Iterating from 1 to 5 with a step of 2
+    print("for (i in 1..5 step 2) print(i) = ")
+    for (i in 1..5 step 2) print(i)
+    println() // Output: 135
+
+    // Iterating from 5 down to 1 with a step of 2
+    print("for (i in 5 downTo 1 step 2) print(i) = ")
+    for (i in 5 downTo 1 step 2) print(i)
+    println() // Output: 531
 }
