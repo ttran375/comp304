@@ -73,9 +73,21 @@ fun main(args: Array<String>) {
     // for (i in 5 downTo 1 step 2) print(i)
     // println() // Output: 531
 
-    fun main(args: Array<String>) {
-        println(getName("John", "Doe"))
+    // fun main(args: Array<String>) {
+    //     println(getName("John", "Doe"))
+    // }
+    
+    // fun getName(firstName: String, lastName: String): String = "$firstName $lastName"
+
+    fun displayBorder(character: Char = '=', length: Int = 15) {
+        for (i in 1..length) {
+            print(character)
+        }
+        println()  // To move to the next line after printing the border
     }
     
-    fun getName(firstName: String, lastName: String): String = "$firstName $lastName"
+    fun main(args: Array<String>) {
+        
+    }
+    
 }
