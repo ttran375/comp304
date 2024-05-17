@@ -1,7 +1,15 @@
-class Person(val firstName: String, var age: Int)
-
 fun main(args: Array<String>) {
-    val person1 = Person("Joe", 25)
-    println("First Name = ${person1.firstName}")
-    println("Age = ${person1.age}")
+    val person1 = Person("joe", 25)
+}
+
+class Person(fName: String, personAge: Int) {
+    val firstName: String
+    var age: Int
+
+    init {
+        firstName = fName.capitalize()
+        age = personAge
+        println("First Name = $firstName")
+        println("Age = $age")
+    }
 }
