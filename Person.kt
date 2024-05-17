@@ -3,12 +3,10 @@ fun main(args: Array<String>) {
 }
 
 class Person(fName: String, personAge: Int) {
-    val firstName: String
-    var age: Int
+    val firstName = fName.capitalize()
+    var age = personAge
 
     init {
-        firstName = fName.capitalize()
-        age = personAge
         println("First Name = $firstName")
         println("Age = $age")
     }
