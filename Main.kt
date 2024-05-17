@@ -48,28 +48,34 @@ fun main(args: Array<String>) {
 
     // println("result = $result")
 
-    // Iterating from 1 to 5
-    print("for (i in 1..5) print(i) = ")
-    for (i in 1..5) print(i)
-    println() // Output: 12345
+    // // Iterating from 1 to 5
+    // print("for (i in 1..5) print(i) = ")
+    // for (i in 1..5) print(i)
+    // println() // Output: 12345
 
-    // Attempting to iterate from 5 to 1 using '..' (will not work as expected)
-    print("for (i in 5..1) print(i) = ")
-    for (i in 5..1) print(i)
-    println() // Output: (prints nothing because 5..1 is an empty range)
+    // // Attempting to iterate from 5 to 1 using '..' (will not work as expected)
+    // print("for (i in 5..1) print(i) = ")
+    // for (i in 5..1) print(i)
+    // println() // Output: (prints nothing because 5..1 is an empty range)
 
-    // Iterating from 5 down to 1 using 'downTo'
-    print("for (i in 5 downTo 1) print(i) = ")
-    for (i in 5 downTo 1) print(i)
-    println() // Output: 54321
+    // // Iterating from 5 down to 1 using 'downTo'
+    // print("for (i in 5 downTo 1) print(i) = ")
+    // for (i in 5 downTo 1) print(i)
+    // println() // Output: 54321
 
-    // Iterating from 1 to 5 with a step of 2
-    print("for (i in 1..5 step 2) print(i) = ")
-    for (i in 1..5 step 2) print(i)
-    println() // Output: 135
+    // // Iterating from 1 to 5 with a step of 2
+    // print("for (i in 1..5 step 2) print(i) = ")
+    // for (i in 1..5 step 2) print(i)
+    // println() // Output: 135
 
-    // Iterating from 5 down to 1 with a step of 2
-    print("for (i in 5 downTo 1 step 2) print(i) = ")
-    for (i in 5 downTo 1 step 2) print(i)
-    println() // Output: 531
+    // // Iterating from 5 down to 1 with a step of 2
+    // print("for (i in 5 downTo 1 step 2) print(i) = ")
+    // for (i in 5 downTo 1 step 2) print(i)
+    // println() // Output: 531
+
+    fun main(args: Array<String>) {
+        println(getName("John", "Doe"))
+    }
+    
+    fun getName(firstName: String, lastName: String): String = "$firstName $lastName"
 }
