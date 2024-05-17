@@ -2,15 +2,6 @@ class Lamp {
     // property (data member)
     private var isOn: Boolean = false
 
-    // member function to display light status
-    fun displayLightStatus() {
-        if (isOn) {
-            println("Lamp is on.")
-        } else {
-            println("Lamp is off.")
-        }
-    }
-
     // member function to turn on the lamp
     fun turnOn() {
         isOn = true
@@ -20,19 +11,24 @@ class Lamp {
     fun turnOff() {
         isOn = false
     }
+
+    // member function to display light status
+    fun displayLightStatus(lamp: String) {
+        if (isOn) {
+            println("$lamp lamp is on.")
+        } else {
+            println("$lamp lamp is off.")
+        }
+    }
 }
 
 fun main(args: Array<String>) {
-    val lamp = Lamp() // create an object of the Lamp class
+    val l1 = Lamp() // create l1 object of Lamp class
+    val l2 = Lamp() // create l2 object of Lamp class
 
-    // Display the initial status of the lamp
-    lamp.displayLightStatus() // should print "Lamp is off."
+    l1.turnOn()
+    l2.turnOff()
 
-    // Turn on the lamp and display its status
-    lamp.turnOn()
-    lamp.displayLightStatus() // should print "Lamp is on."
-
-    // Turn off the lamp and display its status
-    lamp.turnOff()
-    lamp.displayLightStatus() // should print "Lamp is off."
+    l1.displayLightStatus("l1") // should print "l1 lamp is on."
+    l2.displayLightStatus("l2") // should print "l2 lamp is off."
 }
