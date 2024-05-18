@@ -1,51 +1,16 @@
-open class Person(val age: Int) {
-    fun eat() {
-        println("Eating...")
-    }
+fun main(args: Array<String>) {
+    val girl = Girl()
+    girl.displayAge(31)
+}
 
-    fun talk() {
-        println("Talking...")
-    }
-
-    fun walk() {
-        println("Walking...")
+open class Person {
+    open fun displayAge(age: Int) {
+        println("My age is $age.")
     }
 }
 
-class MathTeacher(age: Int) : Person(age) {
-    fun teachMath() {
-        println("Teaching math...")
+class Girl : Person() {
+    override fun displayAge(age: Int) {
+        println("My fake age is ${age - 5}.")
     }
-}
-
-class Footballer(age: Int) : Person(age) {
-    fun playFootball() {
-        println("Playing football...")
-    }
-}
-
-class Businessman(age: Int) : Person(age) {
-    fun doBusiness() {
-        println("Doing business...")
-    }
-}
-
-fun main() {
-    val mathTeacher = MathTeacher(30)
-    mathTeacher.eat()
-    mathTeacher.talk()
-    mathTeacher.walk()
-    mathTeacher.teachMath()
-
-    val footballer = Footballer(25)
-    footballer.eat()
-    footballer.talk()
-    footballer.walk()
-    footballer.playFootball()
-
-    val businessman = Businessman(40)
-    businessman.eat()
-    businessman.talk()
-    businessman.walk()
-    businessman.doBusiness()
 }
