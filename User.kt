@@ -2,10 +2,22 @@ data class User(val name: String, val age: Int)
 
 fun main(args: Array<String>) {
     val u1 = User("John", 29)
-    
-    // using copy function to create an object
-    val u2 = u1.copy(name = "Randy")
-    
-    println("u1: name = ${u1.name}, age = ${u1.age}")
-    println("u2: name = ${u2.name}, age = ${u2.age}")
+    val u2 = u1.copy()
+    val u3 = u1.copy(name = "Amanda")
+
+    println("u1 hashcode = ${u1.hashCode()}")
+    println("u2 hashcode = ${u2.hashCode()}")
+    println("u3 hashcode = ${u3.hashCode()}")
+
+    if (u1 == u2) {
+        println("u1 is equal to u2.")
+    } else {
+        println("u1 is not equal to u2.")
+    }
+
+    if (u1 == u3) {
+        println("u1 is equal to u3.")
+    } else {
+        println("u1 is not equal to u3.")
+    }
 }
