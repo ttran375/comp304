@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SimpleDataBindingExample</string>
+    <string name="student_info">Student Information:</string>
+</resources>
