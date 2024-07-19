@@ -6,7 +6,7 @@
 
 ## Week 3: Anatomy and Life Cycle of Android Applications
 
-- In-Class Exercises: Intents, Fragments, Layout, CallBacks
+- In-Class Exercises: [Intents](Week3/IntentsExample), [Fragments](Week3/FragmentsExample), [Layout](Week3/LayoutsExample), [CallBacks](Week3/LifeCycleCallbacks)
 - Assignments: [Lab Assignment #1 Exercise 1](https://github.com/ttran375/johnsmith_COMP304Assignment1_Ex1), [Lab Assignment #1 Exercise 2](https://github.com/ttran375/johnsmith_COMP304Assignment1_Ex2)
 
 ## Week 4: Managing Application Resources and Introduction to Building User Interfaces
