@@ -15,7 +15,7 @@
 
 ## Week 5: Designing UI with Standard Views The Android Widget Tool
 
-- In-Class Exercises: Resources, View, Data Binding
+- In-Class Exercises: Resources, View, Data Binding, MyCheckBoxDemoZip.zip
 
 ## Week 6: Using Internet Resources 
 
@@ -28,7 +28,7 @@
 
 ## Week 8: Working With Firebase/Firestore Databases
 
-- In-Class Exercises: Bus Schedule
+- In-Class Exercises: Bus Schedule, Room CRUD
 
 ## Week 9: Intro to Jetpack Compose
 
