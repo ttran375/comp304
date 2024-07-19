@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_sety"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sety"
+            />
+
+        <RadioButton android:id="@+id/radio_setn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setn"
+            />
+
+        <RadioButton android:id="@+id/radio_hit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hit"
+            />
+        <RadioButton android:id="@+id/radio_gp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gp"
+            />
+        <RadioButton android:id="@+id/radio_ai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ai"
+            />
+
+        <RadioButton android:id="@+id/radio_mapd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mapd"
+            />
+
+    </RadioGroup>
+
+
+
+</LinearLayout>
