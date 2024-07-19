@@ -6,12 +6,12 @@
 
 ## Week 3: Anatomy and Life Cycle of Android Applications
 
-- In-Class Exercises: [Intents](Week3/IntentsExample), [Fragments](Week3/FragmentsExample), [Layout](Week3/LayoutsExample), [CallBacks](Week3/LifeCycleCallbacks)
+- In-Class Exercises: [Intents](Week03/IntentsExample), [Fragments](Week03/FragmentsExample), [Layout](Week03/LayoutsExample), [CallBacks](Week03/LifeCycleCallbacks)
 - Assignments: [Lab Assignment #1 Exercise 1](https://github.com/ttran375/johnsmith_COMP304Assignment1_Ex1), [Lab Assignment #1 Exercise 2](https://github.com/ttran375/johnsmith_COMP304Assignment1_Ex2)
 
 ## Week 4: Managing Application Resources and Introduction to Building User Interfaces
 
-- In-Class Exercises: Resources, View, Data Binding
+- In-Class Exercises: [Resources](Week04/UsingResourcesExample), [Recycler View](Week04/RecyclerViewExample), [Data Binding](Week04/SimpleDataBindingExample)
 
 ## Week 5: Designing UI with Standard Views The Android Widget Tool
 
