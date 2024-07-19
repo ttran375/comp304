@@ -21,7 +21,7 @@
 
 ## Week 7: Creating and Using Databases in Android Apps 
 
-- In-Class Exercises: Kotlin Flow, Photo Gallery, Coroutine
+- In-Class Exercises: [Kotlin Flow](Week07/KotlinFlowExample), [Photo Gallery](Week07/PhotoGallery), [Coroutine](Week07/SimpleCoroutineExample)
 - Assignments: [Lab Assignment #2](https://github.com/ttran375/comp304-assignment2)
 
 ## Week 8: Working With Firebase/Firestore Databases
