@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">FragmentsExample</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="program_fragment">Hello program fragment</string>
+    <string name="description_fragment">Hello description fragment</string>
+    <string name="program_name">Show Program Name</string>
+    <string name="sety">SETy</string>
+    <string name="setn">SETn</string>
+    <string name="hit">HIT</string>
+    <string name="gp">G-P</string>
+    <string name="ai">SET-AI</string>
+    <string name="mapd">MAPD</string>
+
+
+
+
+
+
+    <string-array name="programs">
+
+        <item> SETy</item>
+        <item> SETn</item>
+        <item> HIT</item>
+        <item> G-P </item>
+        <item> AI</item>
+        <item> MAPD </item>
+
+    </string-array>
+
+    <string-array name="descriptions">
+
+        <item> Software Engineering Technology</item>
+        <item> Software Engineering Technician</item>
+        <item> Health Informatics Technology</item>
+        <item> Game - Programming </item>
+        <item> Software Engineering Technology - Artificial Intelligence</item>
+        <item> SMobile Apps Development</item>
+
+    </string-array>
+
+</resources>
