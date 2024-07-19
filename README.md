@@ -15,11 +15,9 @@
 
 ## Week 5: Designing UI with Standard Views The Android Widget Tool
 
-- In-Class Exercises: Resources, View, Data Binding, MyCheckBoxDemoZip.zip
+- In-Class Exercises: [Simple Views](Week05/SimpleViews), [Styles](Week05/SimpleStyles), [Menu](Week05/SimpleMenuExample), [Spinner](Week05/SpinnerTest), [Action Bar](Week05/SimpleActionBar), [Rating Bar](Week05/RatingBar)
 
 ## Week 6: Using Internet Resources 
-
-- In-Class Exercises: Styles, Menu, Spinner, Action Bar, Rating Bar
 
 ## Week 7: Creating and Using Databases in Android Apps 
 
