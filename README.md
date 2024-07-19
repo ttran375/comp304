@@ -26,7 +26,7 @@
 
 ## Week 8: Working With Firebase/Firestore Databases
 
-- In-Class Exercises: [Bus Schedule](https://github.com/ttran375/bus-schedule), Room CRUD
+- In-Class Exercises: [Bus Schedule](https://github.com/ttran375/bus-schedule), [Room CRUD](https://github.com/ttran375/room-crud)
 
 ## Week 9: Intro to Jetpack Compose
 
