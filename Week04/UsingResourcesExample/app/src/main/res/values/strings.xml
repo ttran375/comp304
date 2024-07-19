@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Using Android Resources</string>
+    <string name="display">Demonstrating Text Properties!</string>
+    <string name="app_name">Simple Resource Example</string>
+    <string name="name">Name</string>
+	<string name="textview">TextView</string>
+	<string name="button">Button</string>
+	<string name="name_1">Name</string>
+	<string name="name_2">Name</string>
+	<string name="name_3">Name</string>
+	<color name="prettyTextColor">#ff22a5</color>
+	<color name="niceTextColor">#ffffff</color>
+	<dimen name="textPointSize">4pt</dimen>
+	<drawable name="redDrawable">#ff0000</drawable>
+
+	<string-array name="flavors">
+		<item>Vanilla</item>
+		<item>Chocolate</item>
+		<item>Strawberry</item>
+		<item>Blueberry</item>
+	</string-array>
+
+</resources>
