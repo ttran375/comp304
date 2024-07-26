@@ -30,7 +30,7 @@
 
 ## Week 9: Intro to Jetpack Compose
 
-- In-Class Exercises: Hoard Firebase
+- In-Class Exercises: [Hoard Firebase](https://github.com/ttran375/comp304-hoard-firebase)
 
 ## Week 10: Location-Based Services
 
