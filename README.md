@@ -34,4 +34,4 @@
 
 ## Week 10: Location-Based Services
 
-- In-Class Exercises: While Using Location
+- In-Class Exercises: [While Using Location](https://github.com/ttran375/comp304-while-in-use-location)
