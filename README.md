@@ -35,3 +35,7 @@
 ## Week 10: Location-Based Services
 
 - In-Class Exercises: [While Using Location](https://github.com/ttran375/comp304-while-in-use-location)
+
+## Week 11: Broadcasts and SMS Messaging
+
+- Assignments: [Lab Assignment #3](https://github.com/ttran375/comp304-assignment3)
