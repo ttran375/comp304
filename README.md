@@ -38,4 +38,5 @@
 
 ## Week 11: Broadcasts and SMS Messaging
 
+- In-Class Exercises: [My SMS](https://github.com/ttran375/comp304-MySms)
 - Assignments: [Lab Assignment #3](https://github.com/ttran375/comp304-assignment3)
