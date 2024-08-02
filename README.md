@@ -26,7 +26,7 @@
 
 ## Week 8: Working With Firebase/Firestore Databases
 
-- In-Class Exercises: [Bus Schedule](https://github.com/ttran375/bus-schedule), [Room CRUD](https://github.com/ttran375/room-crud)
+- In-Class Exercises: [Bus Schedule](https://github.com/ttran375/bus-schedule)
 
 ## Week 9: Intro to Jetpack Compose
 
@@ -38,5 +38,5 @@
 
 ## Week 11: Broadcasts and SMS Messaging
 
-- In-Class Exercises: [Broadcast Demo](https://github.com/ttran375/comp304-broadcast), [My SMS](https://github.com/ttran375/comp304-mysms)
+- In-Class Exercises: [Broadcast Demo](https://github.com/ttran375/comp304-broadcast), [My SMS](https://github.com/ttran375/comp304-mysms), [Room CRUD](https://github.com/ttran375/room-crud)
 - Assignments: [Lab Assignment #3](https://github.com/ttran375/comp304-assignment3)
