@@ -19,6 +19,8 @@
 
 ## Week 6: Using Internet Resources 
 
+- Tests: [Test 1](https://github.com/ttran375/comp304-test1)
+
 ## Week 7: Creating and Using Databases in Android Apps 
 
 - In-Class Exercises: [Kotlin Flow](Week07/KotlinFlowExample), [Photo Gallery](Week07/PhotoGallery), [Coroutine](Week07/SimpleCoroutineExample)
@@ -26,17 +28,17 @@
 
 ## Week 8: Working With Firebase/Firestore Databases
 
-- In-Class Exercises: [Bus Schedule](https://github.com/ttran375/bus-schedule)
+- In-Class Exercises: [Bus Schedule](https://github.com/ttran375/busschedule)
 
 ## Week 9: Intro to Jetpack Compose
 
-- In-Class Exercises: [Hoard Firebase](https://github.com/ttran375/comp304-hoard-firebase)
+- In-Class Exercises: [Hoard Firebase](https://github.com/ttran375/hoardfirebasetest)
 
 ## Week 10: Location-Based Services
 
-- In-Class Exercises: [While Using Location](https://github.com/ttran375/comp304-while-in-use-location)
+- In-Class Exercises: [While Using Location](https://github.com/ttran375/while_in_use_location)
 
 ## Week 11: Broadcasts and SMS Messaging
 
-- In-Class Exercises: [Broadcast Demo](https://github.com/ttran375/comp304-broadcast), [My SMS](https://github.com/ttran375/comp304-mysms), [Room CRUD](https://github.com/ttran375/room-crud)
+- In-Class Exercises: [Broadcast Demo](https://github.com/ttran375/broadcastdemo), [My SMS](https://github.com/ttran375/mysms), [Room CRUD](https://github.com/ttran375/roomcrud)
 - Assignments: [Lab Assignment #3](https://github.com/ttran375/comp304-assignment3)
