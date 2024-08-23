@@ -42,3 +42,11 @@
 
 - In-Class Exercises: [Broadcast Demo](https://github.com/ttran375/broadcastdemo), [My SMS](https://github.com/ttran375/mysms), [Room CRUD](https://github.com/ttran375/roomcrud)
 - Assignments: [Lab Assignment #3](https://github.com/ttran375/comp304-assignment3)
+
+## Week 12: Developing Android apps using Jetpack Compose Graphics and Animation Capabilities
+
+- Assignments: [Lab Assignment #4](https://github.com/ttran375/comp304-assignment4)
+
+## Week 13: Developing Android Services
+
+- Tests: [Test 2](https://github.com/ttran375/comp304-test2)
